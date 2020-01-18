@@ -36,10 +36,10 @@ Now I will check the accuracy of my model by creating a confusion matrix. For ma
 
 Final performance measures of my model including validation accuracy, loss, precision, recall and F1 score is mentioned in the "comments" along with the code.
 
-NOTE  :  Pre processing and post processing operations are mentioned above along with the reasons why I have used them.
-         The h5 model that I have trained is attched in my repository along with the original dataset and the test_set.
-         I have also attached the dataset named "predicted_test_set" consisting of entire test_set including the predicted values of              "class" variable.
-         Final performance measures of my model including validation accuracy, loss, precision, recall and F1 score is present in the            comment section of the code.
-         I have attached a file named "machine learning code" which consist of the code.
-         Please go through the entire code and read all the comments. Some of the things which are not mentioned in the above material            is present in the comments along with the explaination of each and every step. 
+NOTE  :  (1) Pre processing and post processing operations are mentioned above along with the reasons why I have used them.
+         (2) The h5 model that I have trained is attched in my repository along with the original dataset and the test_set.
+         (3) I have also attached the dataset named "predicted_test_set" consisting of entire test_set including the predicted values of              "class" variable.
+         (4) Final performance measures of my model including validation accuracy, loss, precision, recall and F1 score is present in                the comment section of the code.
+         (5) I have attached a file named "machine learning code" which consist of the code.
+         (6) Please go through the entire code and read all the comments. Some of the things which are not mentioned in the above                    material is present in the comments along with the explaination of each and every step. 
          
