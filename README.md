@@ -36,7 +36,8 @@ Next step is to fit ANN to the training_set. For this, I will use a library name
 Now I will predict the test_set results. For this, I have used a function named "h2o.predict()". This function consist of mainly 2 arguments namely  : 
 
                      (1) classifier = "classifier just created"
-                     (2) newdata = "h2o format dataset which needs to be predicted". For converting the dataset into h2o format I have                                      used a function named as "as.h2o()".
+                     
+                     (2) newdata = "h2o format dataset which needs to be predicted". For converting the dataset into h2o format I have used a function named as "as.h2o()".
                      
                                                                                
 The above function will return the value in the form of probability. So now we will classify the results by choosing a threshold probability value. I have chosen the threshold value to be "0.5" which means for all the values equal and above "0.5" will get "class 1" and the values less than "0.5" will get "class 0". I have stored the result in "y_pred".
@@ -53,11 +54,11 @@ NOTE  :
          
          (2) The h5 model that I have trained is attched in my repository along with the original dataset and the test_set.
          
-         (3) I have also attached the dataset named "predicted_test_set" consisting of entire test_set including the predicted values of              "class" variable.
+         (3) I have also attached the dataset named "predicted_test_set" consisting of entire test_set including the predicted values of "class" variable.
          
-         (4) Final performance measures of my model including validation accuracy, loss, precision, recall and F1 score is present in                the comment section of the code.
+         (4) Final performance measures of my model including validation accuracy, loss, precision, recall and F1 score is present in the comment section of the code.
          
          (5) I have attached a file named "machine learning code" which consist of the code.
          
-         (6) Please go through the entire code and read all the comments. Some of the things which are not mentioned in the above                    material is present in the comments along with the explaination of each and every step. 
+         (6) Please go through the entire code and read all the comments. Some of the things which are not mentioned in the above material is present in the comments along with the explaination of each and every step. 
          
