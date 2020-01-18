@@ -19,10 +19,15 @@ Now I will split the dataset using a function named "sample.split()". In this fu
 After splitting the dataset, we will analyse the data. Now we see the entire data is not scaled, so we will perform feature scaling. For feature scaling I have used a function named "scale()". (This function automatically scales the data in the range from 0 to 1 without user entering the formula).
 
 Next step is to fit ANN to the training_set. For this, I will use a library named "h2o". Now I will construct a classifier using function named "h2o.deeplearning()". In this function I have used 6 arguments namely  :  (1) y = "independent variable"
+
                                                                                 (2) training_frame = "dataset which needs to be trained"
+                                                                                
                                                                                 (3) activation = "Rectifier"
+                                                                                
                                                                                 (4) hidden = "hidden layers along with number of nodes"
+                                                                                
                                                                                 (5) epochs = "no. of times data should be iterated"
+                                                                                
                                                                                 (6) train_samples_per_iteration
 
 Now I will predict the test_set results. For this, I have used a function named "h2o.predict()". This function consist of mainly 2 arguments namely  :  (1) classifier = "classifier just created"
